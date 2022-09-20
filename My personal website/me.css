@@ -1,4 +1,3 @@
-.skill-list-p2 {
-    display: inline;
-    float: left;
+.skill-list-p2 > li {
+    display: inline-block;
 }
