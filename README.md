@@ -8,8 +8,8 @@ HTML
 
 
 CSS
-- Will get to shortly
-
+- Started cleaning up list
+    - Part of List now comes in a nice horizontal scroll view
 
 
 JavaScript
