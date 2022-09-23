@@ -3,9 +3,30 @@
     src: url("Fonts/slkscr.ttf");
 }
 
-body {
-    background-color: #343d46;
+@font-face {
+    font-family: CleanMainPage;
+    src: url("Fonts/NotoSerif-Regular.ttf");
 }
+
+
+body {
+
+    background-color: #343d46;
+    
+}
+
+
+.Simple-Intro {
+
+    font-family: CleanMainPage;
+
+}
+
+.Heading-Sizer {
+
+    font-size: 64px;
+}
+
 
 .list-padding {
 
@@ -21,14 +42,22 @@ padding: 50px;
 
 }
 
+.Skill-Heading {
+    
+    text-align: center;
+    padding-top: 20px;
+    font-family: CleanMainPage;
+
+}
+
 .subway-fill {
 
-    background-color: #0e0d13;
+    background-color: #050404;
 }
 
 .second-color-scheme {
 
-    background-color: #4f5b66;
+    background-color: #bbbbbb;
 }
 
 /* * {
