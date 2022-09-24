@@ -8,15 +8,109 @@
     src: url("Fonts/NotoSerif-Regular.ttf");
 }
 
+h1 {
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 body {
 
-    background-color: #343d46;
+    background-color: rgb(44, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+
+    background-color: rgba(250, 25, 100, 0.75); /* Green */
     
 }
 
+.Intro {
 
-.Simple-Intro {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    inline-size: 525px;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+
+}
+
+hr {
+    width: 98%;
+}
+
+.Button-Wrapper {
+
+    display: flex;
+
+}
+
+.Station-Buttons {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 18px;
+    color: white;
+    margin: 2px;
+    
+
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: rgb(44, 226, 19);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.Contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wheelchair {
+        width: 15%;
+        margin: 10px;
+        height: inherit;
+}
+
+.Contact-Text-Wrapper {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* .Simple-Intro {
 
     font-family: CleanMainPage;
 
@@ -58,7 +152,7 @@ padding: 50px;
 .second-color-scheme {
 
     background-color: #bbbbbb;
-}
+} */
 
 /* * {
     border: 1px solid red;
