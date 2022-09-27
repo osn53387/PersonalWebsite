@@ -8,8 +8,7 @@ HTML
 
 
 CSS
-- Started cleaning up list
-    - Part of List now comes in a nice horizontal scroll view
+- Restyled to look like a New York Subway sign
 
 
 JavaScript
