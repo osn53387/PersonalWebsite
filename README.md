@@ -1,6 +1,10 @@
 # PersonalWebsite
 A website to introduce myself!
 
+As of 10/08/2022
+
+**- Not in active development, no foreseable work to be known or done for now.**
+
 Progress 
 HTML
 - Created a basic outline for now
